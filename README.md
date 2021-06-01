@@ -1,4 +1,7 @@
-# twitter-cli
+# Twitter CLI
+
+[![GitHub license](https://img.shields.io/github/license/shortthirdman/twitter-cli)](https://github.com/shortthirdman/twitter-cli/blob/main/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/shortthirdman/twitter-cli)](https://github.com/shortthirdman/twitter-cli/issues)
 
 A command-line interface utility for doing all things on the command shell/prompt - tweeting, reply to tweets, direct messaging.
 
