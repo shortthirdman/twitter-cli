@@ -1,0 +1,43 @@
+{
+  "name": "twitter-cli",
+  "version": "1.0.0",
+  "description": "Comman Line Interface (CLI) for Twitter Inc",
+  "main": "bin/cli.js",
+  "bin": {
+    "tw": "bin/cli.js"
+  },
+  "scripts": {
+    "publish": "npm publish --access public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+	"registry":"https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shortthirdman/twitter-cli.git"
+  },
+  "keywords": [
+    "twitter",
+    "oclif",
+    "cli",
+    "nodejs"
+  ],
+  "author": "Swetank Mohanty <swetank.mohanty@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shortthirdman/twitter-cli/issues"
+  },
+  "homepage": "https://github.com/shortthirdman/twitter-cli#readme",
+  "files": [
+    "bin/*.js",
+    "package.json"
+  ],
+  "dependencies": {
+    "axios": "0.21.1",
+    "boxen": "5.0.1",
+    "chalk": "4.1.1",
+    "open": "8.2.0",
+    "yargs": "17.0.1"
+  }
+}
