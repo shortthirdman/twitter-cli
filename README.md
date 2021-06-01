@@ -16,18 +16,25 @@ Make sure you have the environment variables in the system according to your ope
 * For Windows using PowerShell
 
 ```powershell
-[Environment]::SetEnvironmentVariable("TW_CONSUMER_KEY", $consumerKey, "Machine")
-[Environment]::SetEnvironmentVariable("TW_CONSUMER_SECRET", $consumerSecretKey, "Machine")
-[Environment]::SetEnvironmentVariable("TW_ACCESS_TOKEN", $accessToken, "Machine")
-[Environment]::SetEnvironmentVariable("TW_ACCESS_TOKEN_SECRET", $accessTokenSecret, "Machine")
-[Environment]::SetEnvironmentVariable("TW_USERNAME", $userName, "Machine")
+[Environment]::SetEnvironmentVariable("CONSUMER_KEY", $consumerKey, "Machine")
+[Environment]::SetEnvironmentVariable("CONSUMER_SECRET", $consumerSecretKey, "Machine")
+[Environment]::SetEnvironmentVariable("ACCESS_TOKEN", $accessToken, "Machine")
+[Environment]::SetEnvironmentVariable("ACCESS_TOKEN_SECRET", $accessTokenSecret, "Machine")
+[Environment]::SetEnvironmentVariable("TWITTER_USERNAME", $userName, "Machine")
 ```
 
 * For UNIX/Linux
+
 ```shell
+export CONSUMER_KEY=consumerKey
+export CONSUMER_SECRET=consumerSecretKey
+export ACCESS_TOKEN=accessToken
+export ACCESS_TOKEN_SECRET=accessTokenSecret
+export TWITTER_USERNAME=userName
 ```
 
 * For MacOS
+
 ```shell
 ```
 
