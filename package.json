@@ -7,6 +7,8 @@
     "tw": "bin/cli.js"
   },
   "scripts": {
+	"build": "babel src --out-dir lib --source-maps",
+    "prebuild": "rimraf lib",
     "publish": "npm publish --access public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,7 +20,9 @@
     "url": "git+https://github.com/shortthirdman/twitter-cli.git"
   },
   "keywords": [
+	"babel",
     "twitter",
+	"apiv2",
     "oclif",
     "cli",
     "nodejs"
@@ -33,17 +37,27 @@
     "bin/*.js",
     "package.json"
   ],
+  "directories": [],
   "dependencies": {
     "axios": "0.21.1",
     "boxen": "5.0.1",
     "chalk": "4.1.1",
+    "luxon": "1.26.0",
+    "moment": "2.29.0",
     "open": "8.2.0",
+    "regenerator-runtime": "0.13.7",
     "twitter-lite": "1.1.0",
     "twitter-text": "3.1.0",
     "twitter-v2": "1.1.0",
     "yargs": "17.0.1"
   },
   "devDependencies": {
-    "dotenv": "10.0.0"
+    "@babel/cli": "7.13.16",
+    "@babel/core": "7.14.0",
+    "@babel/plugin-transform-arrow-functions": "7.13.0",
+    "@babel/plugin-transform-for-of": "7.13.0",
+    "@babel/preset-env": "7.14.0",
+    "dotenv": "10.0.0",
+    "rimraf": "3.0.2"
   }
 }
