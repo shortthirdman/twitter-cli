@@ -47,10 +47,8 @@ export TWITTER_USERNAME=userName
 * For Node.js:
 	`npm install -g twitter-cli`
 
-* For Python:
-	`pip install --user twitter-cli`
-
-
 ## Help and Resources
 
 * [geduldig/TwitterAPI: Minimal python wrapper for Twitter's REST and Streaming APIs](https://github.com/geduldig/TwitterAPI)
+* [draftbit/twitter-lite: A tiny, full-featured, flexible client / server library for the Twitter API](https://github.com/draftbit/twitter-lite)
+* [HunterLarco/twitter-v2: An asynchronous client library for the Twitter REST and Streaming API's](https://github.com/HunterLarco/twitter-v2)
