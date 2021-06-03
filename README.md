@@ -2,6 +2,13 @@
 
 [![GitHub license](https://img.shields.io/github/license/shortthirdman/twitter-cli)](https://github.com/shortthirdman/twitter-cli/blob/main/LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/shortthirdman/twitter-cli)](https://github.com/shortthirdman/twitter-cli/issues)
+[![GitHub package.json keywords](https://img.shields.io/github/package-json/keywords/shortthirdman/twitter-cli)](https://github.com/shortthirdman/twitter-cli)
+[![GitHub package.json version](https://img.shields.io/github/package-json/version/shortthirdman/twitter-cli)](https://github.com/shortthirdman/twitter-cli)
+
+![GitHub last commit](https://img.shields.io/github/last-commit/shortthirdman/twitter-cli)
+![Weekly GitHub commit activity](https://img.shields.io/github/commit-activity/w/shortthirdman/twitter-cli?label=Weekly)
+![Monthly GitHub commit activity](https://img.shields.io/github/commit-activity/m/shortthirdman/twitter-cli?label=Monthly)
+![Yearly GitHub commit activity](https://img.shields.io/github/commit-activity/y/shortthirdman/twitter-cli?label=Yearly)
 
 A command-line interface utility for doing all things on the command shell/prompt - tweeting, reply to tweets, direct messaging.
 
