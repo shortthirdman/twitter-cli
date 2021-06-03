@@ -1,9 +1,13 @@
+#!/usr/bin/env node
+
+import yargs from 'yargs';
+import { hideBin } from 'yargs/helpers';
+
 const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
 const chalk = require('chalk');
 const boxen = require('boxen');
-const yargs = require('yargs');
 const twitter = require('twitter-text');
 
 const { data } = await client.get('tweets', { ids: '1228393702244134912' });
