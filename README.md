@@ -49,3 +49,8 @@ export TWITTER_USERNAME=userName
 
 * For Python:
 	`pip install --user twitter-cli`
+
+
+## Help and Resources
+
+* [geduldig/TwitterAPI: Minimal python wrapper for Twitter's REST and Streaming APIs](https://github.com/geduldig/TwitterAPI)

@@ -1,7 +1,7 @@
 {
   "name": "twitter-cli",
   "version": "1.0.0",
-  "description": "Comman Line Interface (CLI) for Twitter Inc",
+  "description": "Comman Line Interface (CLI) for Twitter Inc with API v2",
   "main": "bin/cli.js",
   "bin": {
     "tw": "bin/cli.js"
@@ -11,7 +11,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "publishConfig": {
-	"registry":"https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/"
   },
   "repository": {
     "type": "git",
@@ -38,6 +38,12 @@
     "boxen": "5.0.1",
     "chalk": "4.1.1",
     "open": "8.2.0",
+    "twitter-lite": "1.1.0",
+    "twitter-text": "3.1.0",
+    "twitter-v2": "1.1.0",
     "yargs": "17.0.1"
+  },
+  "devDependencies": {
+    "dotenv": "10.0.0"
   }
 }
