@@ -1,5 +1,5 @@
 {
-  "name": "twitter-cli",
+  "name": "@shortthirdman/twitter/cli",
   "version": "1.0.0",
   "description": "Comman Line Interface (CLI) for Twitter Inc with API v2",
   "main": "bin/cli.js",
